@@ -1,0 +1,143 @@
+/* 
+    Document   : main
+    Created on : 2013-04-16, 19.37.12
+    Author     : Ignas Janickas
+*/
+root { 
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'isocteurregular', Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#fix-minus-spacing {
+    color: white;
+}
+
+.clear {
+    clear: both !important;
+}
+
+#wrapper {
+    width: 1116px;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 12px 0 108px 0;
+}
+
+.header .nav-bar-left {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+}
+
+.header .nav-bar-left li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0px;
+    padding: 0xp;
+}
+
+.header .nav-bar-left li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header .nav-bar-left .nav-team {
+    margin-left: 171px;
+}
+
+.header .nav-bar-left .nav-blog {
+    margin-left: 40px;
+}
+
+.header .nav-bar-left .nav-team a div {
+    width: 45px;
+    height: 30px;
+    background-image: url('/img/team_n.jpg');
+}
+
+.header .nav-bar-left .nav-team.active a div {
+    background-image: url('/img/team_s.jpg');
+}
+
+.header .nav-bar-left .nav-blog a div {
+    width: 45px;
+    height: 30px;
+    background-image: url('/img/blog_n.jpg');
+}
+
+.header .nav-bar-left .nav-blog.active a div {
+    background-image: url('/img/blog_s.jpg');
+}
+
+.header .nav-bar-right {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: right;
+}
+
+.header .nav-bar-right li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0px;
+    padding: 0xp;
+}
+
+.header .nav-bar-right li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header .nav-bar-right .nav-fix-ul-spacing div {
+    height: 30px;
+}
+
+.header .nav-bar-right .nav-address {
+    margin-right: 40px;
+}
+
+
+#container {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container div.small {
+    width: 375px;
+}
+
+#container .column-left-min {
+    padding: 0px;
+    margin: 0px;
+    width: 346px;
+    display: inline-block;
+    height: 320px;
+    background-color: lightgreen;
+}
+
+#container .column-mid-min {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    height: 320px;
+    background-color: lightgreen;
+}
+
+#container .column-right-min {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    height: 320px;
+    background-color: lightgreen;
+}
